@@ -1,4 +1,5 @@
+declare 
+	retorno varchar2(4000);
 begin
-	null;
-	select * from dual;
+	select dummy into retorno from dual;
 end;
