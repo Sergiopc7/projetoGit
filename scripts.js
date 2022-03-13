@@ -1,4 +1,4 @@
 begin
 	null;
-	select * from dual;
+	select x into r  from dual;
 end;
